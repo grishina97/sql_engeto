@@ -3,3 +3,4 @@ This is my first project in sql. I was answering assignments from my data analyt
 You can use my code only if you have a database from Engeto Academy.
 In sql_engeto_code you can find the whole code with my comments in Czech.
 In sql_engeto_answers you can find 5 created views based on the answers to the questions.
+In Průvodní listina you can find my answers to the tasks.
