@@ -1,1 +1,16 @@
+Výzkumné otázky:
+1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
+4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
+5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
 
+Odpověd na 1 otázku: V průběhu let mzdy ve všech odvětvích rostou.
+
+Odpověd na otázku 2: za první srovnatelné období je možné koupit 1297 kusů Chleba а 1482 litru Mléka. Za poslední srovnatelné období je možné koupit 1357 kusů Chleba a 1629 litrů Mléka.
+
+Odpověd na otázku 3: Zdražuje se nejpomaleji Cukr krystalový a nejnižší percentuální meziroční nárůst má taký Cukr krystalový.
+
+Odpověd na otázku 4: bohužel zvládá code velmi pomalu, a kvůli tomu nemohu napsat odpoved (zvlášt to taký nejde).
+
+Odpověd na otázku 5: ano, HDP má vliv na změny ve mzdách a cenách potravin, protože HDP rosté od roku 2006 do 2018 a spolu s ni rostou i ceny i mzdy.
