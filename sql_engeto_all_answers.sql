@@ -6,13 +6,13 @@ GROUP BY Industry, Years
 ORDER BY Industry;
 
 
+
 CREATE VIEW v_answer_to_2_question AS
 SELECT products, round( avg(payroll) / avg(price) ) AS amount, year 
 FROM t_Anastasiia_Grishina_project_SQL_primarni_final 
-WHERE 
-	Products IN ('Mléko polotučné pasterované', 'Chléb konzumní kmínový') 
-	AND Year IN (2006, 2018)
+WHERE Products IN ('Mléko polotučné pasterované', 'Chléb konzumní kmínový') AND Year IN (2006, 2018)
 GROUP BY products, YEAR;
+
 
 
 CREATE VIEW v_answer_to_3_question AS
@@ -33,15 +33,17 @@ ON a.products = b.products
 ORDER BY Rise_in_price;
 
 
+
 CREATE VIEW v_answer_to_4_question AS
 SELECT 
-    B.YEAR, 
+    	B.YEAR, 
 	concat( round( (A.price - B.price) / B.price * 100), '%') AS Rise_in_price,
 	concat( round( (A.payroll - B.payroll) / B.payroll * 100), '%') AS Rise_in_payroll
 FROM t_Anastasiia_Grishina_project_SQL_primarni_final A
 LEFT JOIN t_Anastasiia_Grishina_project_SQL_primarni_final B ON A.YEAR = B.YEAR + 1
 GROUP BY YEAR
 ORDER BY YEAR;
+
 
 
 CREATE VIEW v_answer_to_5_question AS
