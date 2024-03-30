@@ -4,5 +4,5 @@ This is my first project in sql :partying_face:. I was answering assignments fro
 ## Výzkumné otázky a odpovědí:
 Abych mohla vytvořit primární tabulku, bylo potřeba nejprve vytvořit dvě pomocné a pak je vložit do primární. Co se týče sekundární tabulky, tu jsem vytvořila na konci pomocí své primární a tabulky "economies" z databáze.
   1.	Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
-* Vytvořila jsem tabulku t_industry_payroll_years, do které jsem vložila data: Industry, Payroll, Years z tabulek czechia_payroll a czechia_payroll_industry_branch. Vybrala jsem tyto tabulky, protože otázka se týče mezd. A ještě jsem vybrala unit_code jenom pro Kč a value_type_code pro průměrnou hrubou mzdu na zaměstnance. Poté jsem vybrala roky 2000 a 2021, protože potřebuji vědět o prvním a posledním srovnatelném období.
+* Vytvořila jsem tabulku "t_industry_payroll_years", do které jsem vložila data: Industry, Payroll, Years z tabulek czechia_payroll a czechia_payroll_industry_branch. Vybrala jsem tyto tabulky, protože otázka se týče mezd. A ještě jsem vybrala unit_code jenom pro Kč a value_type_code pro průměrnou hrubou mzdu na zaměstnance. Poté jsem vybrala roky 2000 a 2021, protože potřebuji vědět o prvním a posledním srovnatelném období.
 * Odpověd na 1 otázku: V průběhu let mzdy ve všech odvětvích rostou.
