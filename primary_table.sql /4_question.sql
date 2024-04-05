@@ -4,12 +4,12 @@ SELECT
     concat( round( (A.payroll - B.payroll) / B.payroll * 100), '%') AS Rise_in_payroll
 FROM (
     SELECT avg(price) AS price, YEAR, avg(payroll) AS payroll
-    FROM t_Anastasiia_Grishina_project_SQL_primarni_final 
+    FROM t_Anastasiia_Grishina_project_SQL_primary_final 
     GROUP BY year
     ) AS A
 LEFT JOIN (
     SELECT avg(price) AS price, YEAR, avg(payroll) AS payroll
-    FROM t_Anastasiia_Grishina_project_SQL_primarni_final 
+    FROM t_Anastasiia_Grishina_project_SQL_primary_final 
     GROUP BY year
     ) AS B 
         ON A.YEAR = B.YEAR + 1
