@@ -18,7 +18,7 @@ Abych mohla vytvořit primární tabulku, bylo potřeba nejprve vytvořit dvě p
   
  **4.	Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?**
 * Budu porovnávát jenom v období 2006-2018, protože data o mzdách a cenách se začánají schodovat jen od roku 2006. Vzorec meziročního nárůstu cen, který jsem našla ve statistice: (současný rok - předchozí rok) / předchozí rok * 100, odpověd je v procentech.
-* Odpověd na otázku 4: --- 
+* Odpověd na otázku 4: Neexistuje žádný rok, ve kterém by byl významný rozdíl, ale maximální rozdíl o 4 % je v roce 2011.
 
  **5.	Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?**
 * Vytvořila jsem sekundární tabulku _t_Anastasiia_Grishina_project_SQL_secondary_final_, a vložila jsem do ní data: HDP (rozdělila jsem GDP na 100 mil. aby data vypadala jednodušeji), Price, Payroll z tabulky _economies_ a připojila jsem primární tabulku, protože ceny a mzdy mám v ní.
