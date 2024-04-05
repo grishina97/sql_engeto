@@ -13,15 +13,15 @@ ORDER BY Products, YEAR);
 
 SELECT * FROM t_products_price_year;
 
-CREATE TABLE t_Anastasiia_Grishina_project_SQL_primarni_final AS (
+CREATE TABLE t_Anastasiia_Grishina_project_SQL_primary_final AS (
 SELECT * FROM t_industry_payroll_years ag LEFT JOIN t_products_price_year pt ON ag.years = pt.YEAR);
 
-ALTER TABLE t_Anastasiia_Grishina_project_SQL_primarni_final
+ALTER TABLE t_Anastasiia_Grishina_project_SQL_primary_final
 DROP COLUMN years;
 
-SELECT * FROM t_Anastasiia_Grishina_project_SQL_primarni_final;
+SELECT * FROM t_Anastasiia_Grishina_project_SQL_primary_final;
 SELECT products, round( avg(payroll) / avg(price) ) AS amount, year 
-FROM t_Anastasiia_Grishina_project_SQL_primarni_final 
+FROM t_Anastasiia_Grishina_project_SQL_primary_final 
 WHERE 
 	Products IN ('Mléko polotučné pasterované', 'Chléb konzumní kmínový') 
 	AND Year IN (2006, 2018)
