@@ -1,5 +1,5 @@
 # sql_project
-This is my first project in sql :partying_face:. I was answering assignments from my data analytics course "Engeto". You can use my code only if you have a database from Engeto Academy. In **primary_table.sql** I created four codes for the four questions, in **secondary_table.sql** I included my fifth code, and in **view_answers.sql** you can find 5 created views based on the answers to the questions. 
+Toto je můj první projekt v SQL 🥳. Řešila jsem úkoly z mého kurzu datové analýzy „Engeto“. Můj kód můžete použít pouze v případě, že máte databázi od Engeto Academy. V souboru primary_table.sql jsem vytvořila čtyři kódy pro čtyři otázky, v secondary_table.sql jsem zahrnula můj pátý kód, a v souboru view_answers.sql můžete najít 5 vytvořených pohledů na základě odpovědí na otázky. 
 
 ## Výzkumné otázky a odpovědí:
 Abych mohla vytvořit primární tabulku, bylo potřeba nejprve vytvořit dvě pomocné a pak je vložit do primární. Co se týče sekundární tabulky, tu jsem vytvořila na konci pomocí své primární a tabulky _economies_ z databáze.
